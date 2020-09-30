@@ -28,7 +28,7 @@ average_filter(input)
 ```
 The function returns the calculated value for the given **input** data.
 
-### Graphical representation of filter working
+### Graphical representation of Average filter working
 
 How the **nums** of samples parameter affects the output.
 
@@ -38,3 +38,4 @@ Y axis - data value
 
 ![res/average_data.png](res/average_data.png)
 
+![res/average_sinus.png](res/average_sinus.png)
