@@ -1,6 +1,6 @@
 # A simple filter library written in micro python for use in microcontrollers like esp8266, esp32.
 
-The library contains three types of filters:
+The [filters.py](filters.py) library contains three types of filters:
 - Average filter
 - EWMA filter
 - IIR filter
