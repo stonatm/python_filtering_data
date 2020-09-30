@@ -15,7 +15,6 @@ Using the **NAME_filter_reset** function returns this state to the beginning.
 
 ```
 average_filter_reset(nums=1)
-
 ```
 Function resets the filter to initial state with optional parameter **nums** (if omnitet then default set 1 samples average calculation).
 
@@ -29,9 +28,12 @@ average_filter(input)
 ```
 The function returns the calculated value for the given **input** data.
 
-### How the **nums** of samples parameter affects the output.
+### Graphical representation of filter working
+
+How the **nums** of samples parameter affects the output.
 
 X axis - number of data sample
+
 Y axis - data value
 
 ![res/average_data.png](res/average_data.png)
