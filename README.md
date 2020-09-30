@@ -51,3 +51,15 @@ Y axis - data value
 ![res/ewma_data.png](res/ewma_data.png)
 
 ![res/ewma_sinus.png](res/ewma_sinus.png)
+
+### Graphical representation of IIR filter working
+
+How the **factor** parameter affects the output.
+
+X axis - number of data sample
+
+Y axis - data value
+
+![res/iir_data.png](res/iir_data.png)
+
+![res/iir_sinus.png](res/iir_sinus.png)
