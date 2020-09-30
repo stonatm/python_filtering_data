@@ -11,6 +11,24 @@ This value is also stored for the next calculations for the next calls of this f
 Next calls of this function continue calculations for **input** data for previously set filter parameters or defaults values (if parameters are not set).
 Using the **NAME_filter_reset** function returns this state to the beginning.
 
+### example code
+```
+# import library
+import filters
+# create sample input data table
+input_data = [1, 2, 1, 4, 3, 4, 5, 2, 1, 2]
+# create object
+filtered = filters.filter
+# set filter parameter
+filtered.ewma_filter_reset(0.2)
+# print input and filtered values
+for i in range ( len(input_data) ):
+  print('input= ' + input_data[i] + ' output= ' + filtered.ewma_filter(input_data[i]) )
+```
+### other examples
+link to more advanced [examples](./examples)
+
+
 ## Average filter
 
 ```
