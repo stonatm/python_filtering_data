@@ -39,3 +39,15 @@ Y axis - data value
 ![res/average_data.png](res/average_data.png)
 
 ![res/average_sinus.png](res/average_sinus.png)
+
+### Graphical representation of EWMA filter working
+
+How the **alpha** parameter affects the output.
+
+X axis - number of data sample
+
+Y axis - data value
+
+![res/ewma_data.png](res/ewma_data.png)
+
+![res/ewma_sinus.png](res/ewma_sinus.png)
