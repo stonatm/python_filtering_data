@@ -28,6 +28,41 @@ average_filter(input)
 ```
 The function returns the calculated value for the given **input** data.
 
+## IIR filter
+
+```
+iir_filter_reset(factor=1)
+```
+Function resets the filter to initial state with optional parameter **factor** (if omnitet then default value of factor is set to 1).
+
+```
+iir_set_factor(factor)
+```
+The function sets the factor parameter. **factor** must be greather or equal 1 and should not exceed the value of 32. The factor must be an integer.
+
+```
+iir_filter(input)
+```
+The function returns the calculated value for the given **input** data.
+
+## EWMA filter
+
+```
+ewma_filter_reset(alpha=1)
+```
+Function resets the filter to initial state with optional parameter **alpha** (if omnitet then default value of alpha is set to 1).
+
+```
+ewma_set_alpha(alpha)
+```
+The function sets the alpha parameter. **alpha** must be in range **(0 < alpha < 1)**.
+
+```
+ewma_filter(input)
+```
+The function returns the calculated value for the given **input** data.
+
+
 ### Graphical representation of Average filter working
 
 How the **nums** of samples parameter affects the output.
