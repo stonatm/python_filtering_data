@@ -34,5 +34,5 @@ The function returns the calculated value for the given **input** data.
 X axis - number of data sample
 Y axis - data value
 
-!(res/average_data.png)[res/average_data.png]
+![res/average_data.png](res/average_data.png)
 
